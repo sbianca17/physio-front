@@ -1,0 +1,170 @@
+.navbar {
+    background-color: #0097B2;
+    height: 80px;
+  }
+  .navbar-nav li {
+    padding-top: 15px;
+  }
+  .navbar-nav a{
+    font-family: 'Roboto Flex', sans-serif;
+    color: white;
+  }
+    .navbar-nav a:hover{
+      background-color: #0f5a68;
+    }
+  .navbar-brand img{
+    padding-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 50px;
+  }
+  .title{
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .mission {
+    width: 210px; /* Adjust the width and height to make it a square */
+    height: 150px;
+    background-color: #0097B2; /* Background color of the square */
+    display: flex;
+    justify-content: center; /* Center the text horizontally */
+    align-items: center; /* Center the text vertically */
+    margin-left: 350px;
+    margin-top: 20px;
+    padding-left: 12px;
+    border-radius: 10px;
+  }
+
+  /* Style for the text inside the square */
+  .mission-text h4{
+    color: white;
+    font-weight: bold;
+  }
+  .mission-text p{
+    font-size: 12px;
+    color: white; /* Text color */
+  }
+  .vision {
+    width: 210px; /* Adjust the width and height to make it a square */
+    height: 150px;
+    background-color: #0097B2; /* Background color of the square */
+    display: flex;
+    justify-content: center; /* Center the text horizontally */
+    align-items: center; /* Center the text vertically */
+    margin-left: 800px;
+    margin-top: 20px;
+    padding-left: 12px;
+    border-radius: 10px;
+  }
+
+  /* Style for the text inside the square */
+  .vision-text h4{
+    color: white;
+    font-weight: bold;
+  }
+  .vision-text p{
+    font-size: 12px;
+    color: white; /* Text color */
+  }
+  .location h3{
+    margin-left: 350px;
+  }
+  .location p{
+text-align: center;
+  }
+  .team h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .team p{
+    text-align: center;
+  }
+  .how-section1{
+    margin-top:-15%;
+    padding: 10%;
+}
+.title-header{
+  margin-left: 50px;
+}
+.how-section1 h4{
+    color: #ffa500;
+    font-weight: bold;
+    font-size: 30px;
+}
+.how-section1 .subheading{
+    color: #3931af;
+    font-size: 20px;
+}
+.how-section1 .row
+{
+    margin-top: 10%;
+}
+.how-img 
+{
+    text-align: center;
+}
+.how-img img{
+    width: 40%;
+}
+.pre-diagnostic {
+  width: 1028px; /* Adjust the width and height to make it a square */
+  max-height: fit-content;
+  background-color: #0097B2; /* Background color of the square */
+  display: flex;
+  justify-content: center; /* Center the text horizontally */
+  align-items: center; /* Center the text vertically */
+  margin-left: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+    .prediag-text h4{
+      color: white;
+      font-weight: bold;
+    }
+
+/*FAQ*/
+.panel-group{
+  width: 80%;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+.panel-default{
+  background-color:#0097B2;
+  color: white;
+}
+  .panel-heading [data-toggle="collapse"]:after {
+      font-family: 'Glyphicons Halflings';
+      content: "e072"; /* "play" icon */
+      float: right;
+      color: #F58723;
+      font-size: 18px;
+      line-height: 22px;
+      /* rotate "play" icon from > (right arrow) to down arrow */
+      -webkit-transform: rotate(-90deg);
+      -moz-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+      -o-transform: rotate(-90deg);
+      transform: rotate(-90deg);
+  }
+
+  .panel-heading [data-toggle="collapse"].collapsed:after {
+      /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+      transform: rotate(90deg);
+      color: #454444;
+  }
+
+  /*CONSULTATION*/
+  #consultation{
+    right: 0;
+  }
+  
+  /*PATIENT DETAILS*/
+  .patient-details h4{
+    margin-left: 8.5%;
+  }
