@@ -1,0 +1,23 @@
+h2{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+} 
+
+.add_button {
+    text-align: right;
+    margin-bottom: 5px;
+    /* float: right; */
+    /* margin-right: 20rem; */
+}
+
+input {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+input:focus {
+    outline: 1px solid blue;
+}
