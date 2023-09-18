@@ -132,10 +132,10 @@
   justify-content: center;
   height: 100vh;
   z-index: 100;
-  background: #e7f2fd;
+  background: #ffffff;
 }
-.main h1 {
+/* .main h1 {
   color: #11101d;
   font-size: 40px;
   text-align: center;
-}
+} */

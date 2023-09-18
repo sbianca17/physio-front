@@ -3,14 +3,158 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="addstyle.css">
-    <title>Add Patient | Leonardo Physical Therapy Rehabilitation Clinic</title>
+    <link rel="stylesheet" href="../style.css"/>
+    <script defer src="../script.js"></script>
+    <title>Add Staff | Leonardo Physical Therapy Rehabilitation Clinic</title>
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
 </head>
 <body>
-    <h2>Leonardo Physical Therapy Rehabilitation Clinic</h2> <br> <br>
-    <h1>Add Patient</h1>
+    <nav class="sidebar">
+        <a href="index.html" class="navbar-brand"><img src="../../images/logo/logo.png" style="width: 160px; height: 120px;"/></a>
+  
+        <div class="menu-content">
+          <ul class="menu-items">
+  
+            <li class="item">
+              <div class="submenu-item">
+                <span>Records</span>
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+  
+              <ul class="menu-items submenu">
+                <div class="menu-title">
+                  <i class="fa-solid fa-chevron-left"></i>
+                  Records
+                </div>
+                <li class="item">
+                  <a href="index.html">Staff</a>
+                </li>
+                <li class="item">
+                  <a href="../patients/index.html">Patients</a>
+                </li>
+              </ul>
+            </li>
+          
+            <li class="item">
+              <div class="submenu-item">
+                <span>Bookings</span>
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+  
+              <ul class="menu-items submenu">
+                <div class="menu-title">
+                  <i class="fa-solid fa-chevron-left"></i>
+                  Bookings
+                </div>
+                <li class="item">
+                  <a href="../admin/staff/index.html">Online Consultations</a>
+                </li>
+                <li class="item">
+                  <a href="../admin/patients/index.html">Face-to-Face Sessions</a>
+                </li>
+              </ul>
+            </li>
+  
+            <li class="item">
+              <div class="submenu-item">
+                <span>Diagnostics</span>
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+  
+              <ul class="menu-items submenu">
+                <div class="menu-title">
+                  <i class="fa-solid fa-chevron-left"></i>
+                  Diagnostics
+                </div>
+                <li class="item">
+                  <a href="../admin/staff/index.html">Pre-Diagnostic Forms</a>
+                </li>
+                <li class="item">
+                  <a href="../admin/patients/index.html">Prescriptions</a>
+                </li>
+              </ul>
+            </li>
+  
+            <li class="item">
+              <div class="submenu-item">
+                <span>Inventory</span>
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+  
+              <ul class="menu-items submenu">
+                <div class="menu-title">
+                  <i class="fa-solid fa-chevron-left"></i>
+                  Inventory
+                </div>
+                <li class="item">
+                  <a href="../admin/staff/index.html">Equipment</a>
+                </li>
+                <li class="item">
+                  <a href="../admin/patients/index.html">Supplies</a>
+                </li>
+              </ul>
+            </li>
+  
+            <li class="item">
+              <div class="submenu-item">
+                <span>Content</span>
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+  
+              <ul class="menu-items submenu">
+                <div class="menu-title">
+                  <i class="fa-solid fa-chevron-left"></i>
+                  Content
+                </div>
+                <li class="item">
+                  <a href="../admin/staff/index.html">Blogs</a>
+                </li>
+                <li class="item">
+                  <a href="../admin/patients/index.html">FAQs</a>
+                </li>
+              </ul>
+            </li>
+  
+            <li class="item">
+              <div class="submenu-item">
+                <span>Feedbacks</span>
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+  
+              <ul class="menu-items submenu">
+                <div class="menu-title">
+                  <i class="fa-solid fa-chevron-left"></i>
+                  Feedbacks
+                </div>
+                <li class="item">
+                  <a href="../admin/staff/index.html">Evaluation Forms</a>
+                </li>
+                <li class="item">
+                  <a href="../admin/patients/index.html">Reviews</a>
+                </li>
+              </ul>
+            </li>
+              
+            <li class="item">
+              <div class="submenu-logout">
+              <a href="#">Logout</a>
+              </div>
+            </li>
+  
+          </ul>
+        </div>
+      </nav>
+
+    <nav class="navbar">
+        <i class="fa-solid fa-bars" id="sidebar-close"></i>
+        <h1>Leonardo Physical Therapy Rehabilitation Clinic</h1>
+    </nav>
+
+    <main class="main">
     <div class="container pt-5">
+        <h2>Add Staff</h2>
     <form action="#">
         <label for="name">Name</label> <br>
             <input type="text" name="name" required> <br> <br>
@@ -25,9 +169,10 @@
         <label for="name">Photo</label> <br>
             <input type="file" name="staff_photo" required> <br> <br>
         <br> <br>    
-        <button type="button" class="btn btn-info px-3">Add</button>
-        <button type="button" class="btn btn-light px-3">Cancel</button>
+        <button type="button" class="btn-done">Done</button>
+        <a href="index.html"><button type="button" class="btn-cancel">Cancel</button></a>
     </form>
     </div>
+    </main>
 </body>
 </html>

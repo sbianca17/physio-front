@@ -1,17 +1,36 @@
-h2{
+/* h2{
     text-align: center;
 }
 
 h1{
     text-align: center;
-} 
-
+}  */
 .textarea {
     background-color: #ddddddee;
     color: black;
     padding: 1em;
     width: 400px;
     height: 200px;
+}
+.btn-done {
+    background-color: #0097B2;
+    color: white;
+    padding: 10px 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn-done:hover {
+    background-color: #006e81;
+}
+.btn-cancel {
+    background-color: #9c9c9cd7;
+    color: black;
+    padding: 10px 12px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn-cancel:hover {
+    background-color: #9c9c9c85;
 }
 /* input {
     border: 1px solid #ccc;

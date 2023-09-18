@@ -1,18 +1,19 @@
-h2{
-    text-align: center;
-}
-
-h1{
-    text-align: center;
-} 
-
 .add_button {
     text-align: right;
     margin-bottom: 5px;
     /* float: right; */
     /* margin-right: 20rem; */
 }
-
+.btn-add {
+    background-color: #0097B2;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn-add:hover {
+    background-color: #006e81;
+}
 input {
     border: 1px solid #ccc;
     padding: 5px;
