@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="addstyle.css">
     <link rel="stylesheet" href="../style.css"/>
     <script defer src="../script.js"></script>
-    <title>Add Patient | Leonardo Physical Therapy Rehabilitation Clinic</title>
+    <title>Edit Blog | Leonardo Physical Therapy Rehabilitation Clinic</title>
     <!-- Fontawesome CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
 </head>
@@ -32,7 +32,7 @@
                   <a href="../staff/index.html">Staff</a>
                 </li>
                 <li class="item">
-                  <a href="index.html">Patients</a>
+                  <a href="../patients/index.html">Patients</a>
                 </li>
               </ul>
             </li>
@@ -109,7 +109,7 @@
                   Content
                 </div>
                 <li class="item">
-                  <a href="../blogs/index.html">Blogs</a>
+                  <a href="index.html">Blogs</a>
                 </li>
                 <li class="item">
                   <a href="../faqs/index.html">FAQs</a>
@@ -153,21 +153,21 @@
     </nav>
 
     <main class="main">
-    <div class="container pt-5">
-        <h2>Add Patient</h2> 
+      <div class="container pt-5">
+        <h2>Edit Blog</h2> 
     <form action="#">
-        <label for="name">Name</label> <br>
-            <input type="text" name="name" required> <br> <br>
-        <label for="contact_number">Contact Number</label> <br>
-            <input type="text" name="contact_number" required> <br> <br>
-        <label for="f2f_visits">Visits (Face-to-Face)</label> <br>
-            <input type="date" name="f2f_visits"> <br> <br>
-        <label for="f2f_online">Visits (Online)</label> <br>
-            <input type="date" name="f2f_online"> <br> <br>
-        <label for="diagnosis">Diagnosis</label> <br>
-            <textarea name="diagnosis" class="textarea" placeholder="Write here..."></textarea> <br> <br> 
-        <label for="prescription">Prescription</label> <br>
-            <input type="file" name="prescription"> <br> <br>
+        <label for="title">Title</label> <br>
+            <input type="text" name="title" required value="How to Massage"> <br> <br>
+        <label for="author">Author</label> <br>
+            <input type="text" name="author" required value="Juswa Ramin"> <br> <br>
+        <label for="expertise">Expertise</label> <br>
+            <input type="text" name="expertise" value="Massage"> <br> <br>
+        <label for="date">Date</label> <br>
+            <input type="date" name="date"> <br> <br>
+        <label for="image">Image</label> <br>
+            <input type="file" name="image"> <br> <br>
+        <label for="content">Content</label> <br>
+            <textarea name="content" class="textarea" placeholder="Write here...">Testing Content</textarea> <br> <br> 
         <br> <br>    
         <button type="button" class="btn-done">Done</button>
         <a href="index.html"><button type="button" class="btn-cancel">Cancel</button></a>

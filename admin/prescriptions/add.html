@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="addstyle.css">
+    <link rel="stylesheet" href="../style.css"/>
+    <script defer src="../script.js"></script>
+    <title>Create Prescription | Leonardo Physical Therapy Rehabilitation Clinic</title>
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+<body>
+  <nav class="sidebar">
+    <a href="../index.html" class="navbar-brand"><img src="../../images/logo/logo.png" style="width: 160px; height: 120px;"/></a>
+
+    <div class="menu-content">
+      <ul class="menu-items">
+
+        <li class="item">
+          <div class="submenu-item">
+            <span>Records</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+
+          <ul class="menu-items submenu">
+            <div class="menu-title">
+              <i class="fa-solid fa-chevron-left"></i>
+              Records
+            </div>
+            <li class="item">
+              <a href="../staff/index.html">Staff</a>
+            </li>
+            <li class="item">
+              <a href="../patients/index.html">Patients</a>
+            </li>
+          </ul>
+        </li>
+      
+        <li class="item">
+          <div class="submenu-item">
+            <span>Bookings</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+
+          <ul class="menu-items submenu">
+            <div class="menu-title">
+              <i class="fa-solid fa-chevron-left"></i>
+              Bookings
+            </div>
+            <li class="item">
+              <a href="#">Online Consultations</a>
+            </li>
+            <li class="item">
+              <a href="#">Face-to-Face Sessions</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="item">
+          <div class="submenu-item">
+            <span>Diagnostics</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+
+          <ul class="menu-items submenu">
+            <div class="menu-title">
+              <i class="fa-solid fa-chevron-left"></i>
+              Diagnostics
+            </div>
+            <li class="item">
+              <a href="#">Pre-Diagnostic Forms</a>
+            </li>
+            <li class="item">
+              <a href="index.html">Prescriptions</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="item">
+          <div class="submenu-item">
+            <span>Inventory</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+
+          <ul class="menu-items submenu">
+            <div class="menu-title">
+              <i class="fa-solid fa-chevron-left"></i>
+              Inventory
+            </div>
+            <li class="item">
+              <a href="../equipment/index.html">Equipment</a>
+            </li>
+            <li class="item">
+              <a href="../supplies/index.html">Supplies</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="item">
+          <div class="submenu-item">
+            <span>Content</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+
+          <ul class="menu-items submenu">
+            <div class="menu-title">
+              <i class="fa-solid fa-chevron-left"></i>
+              Content
+            </div>
+            <li class="item">
+              <a href="../blogs/index.html">Blogs</a>
+            </li>
+            <li class="item">
+              <a href="../faqs/index.html">FAQs</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="item">
+          <div class="submenu-item">
+            <span>Feedbacks</span>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+
+          <ul class="menu-items submenu">
+            <div class="menu-title">
+              <i class="fa-solid fa-chevron-left"></i>
+              Feedbacks
+            </div>
+            <li class="item">
+              <a href="../evalforms/index.html">Evaluation Forms</a>
+            </li>
+            <li class="item">
+              <a href="../reviews/index.html">Reviews</a>
+            </li>
+          </ul>
+        </li>
+          
+        <li class="item">
+          <div class="submenu-logout">
+          <a href="#">Logout</a>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+    <nav class="navbar">
+        <i class="fa-solid fa-bars" id="sidebar-close"></i>
+        <h1>Leonardo Physical Therapy Rehabilitation Clinic</h1>
+    </nav>
+
+    <main class="main">
+    <div class="container pt-5">
+    <form action="#">
+        <label for="name">Name</label> <br>
+            <input type="text" name="name" required> <br> <br>
+        <label for="date">Date</label> <br>
+            <input type="date" name="date" required> <br> <br>
+        <label for="drug_name">Drug Name</label> <br>
+            <input type="text" name="drug_name"> <br> <br>
+        <label for="dose">Dose</label> <br>
+            <input type="number" name="dose"> <br> <br>
+          <label for="frequency">Frequency</label> <br>
+            <input type="text" name="frequency"> <br> <br>
+        <label for="drug_advice">Drug Advice</label> <br>
+            <textarea name="drug_advice" class="textarea" placeholder="Write here..."></textarea> <br> <br> 
+        <br> <br>    
+        <button type="button" class="btn-done">Done</button>
+        <a href="index.html"><button type="button" class="btn-cancel">Cancel</button></a>
+    </form>
+    </div>
+</main>
+</body>
+</html>

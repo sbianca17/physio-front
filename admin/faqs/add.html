@@ -6,13 +6,13 @@
     <link rel="stylesheet" href="addstyle.css">
     <link rel="stylesheet" href="../style.css"/>
     <script defer src="../script.js"></script>
-    <title>Add Patient | Leonardo Physical Therapy Rehabilitation Clinic</title>
+    <title>Add FAQs | Leonardo Physical Therapy Rehabilitation Clinic</title>
     <!-- Fontawesome CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
 </head>
 <body>
     <nav class="sidebar">
-        <a href="index.html" class="navbar-brand"><img src="../../images/logo/logo.png" style="width: 160px; height: 120px;"/></a>
+        <a href="../index.html" class="navbar-brand"><img src="../../images/logo/logo.png" style="width: 160px; height: 120px;"/></a>
   
         <div class="menu-content">
           <ul class="menu-items">
@@ -32,7 +32,7 @@
                   <a href="../staff/index.html">Staff</a>
                 </li>
                 <li class="item">
-                  <a href="index.html">Patients</a>
+                  <a href="../patients/index.html">Patients</a>
                 </li>
               </ul>
             </li>
@@ -112,7 +112,7 @@
                   <a href="../blogs/index.html">Blogs</a>
                 </li>
                 <li class="item">
-                  <a href="../faqs/index.html">FAQs</a>
+                  <a href="index.html">FAQs</a>
                 </li>
               </ul>
             </li>
@@ -154,20 +154,12 @@
 
     <main class="main">
     <div class="container pt-5">
-        <h2>Add Patient</h2> 
+        <h2>Add FAQ</h2> 
     <form action="#">
-        <label for="name">Name</label> <br>
-            <input type="text" name="name" required> <br> <br>
-        <label for="contact_number">Contact Number</label> <br>
-            <input type="text" name="contact_number" required> <br> <br>
-        <label for="f2f_visits">Visits (Face-to-Face)</label> <br>
-            <input type="date" name="f2f_visits"> <br> <br>
-        <label for="f2f_online">Visits (Online)</label> <br>
-            <input type="date" name="f2f_online"> <br> <br>
-        <label for="diagnosis">Diagnosis</label> <br>
-            <textarea name="diagnosis" class="textarea" placeholder="Write here..."></textarea> <br> <br> 
-        <label for="prescription">Prescription</label> <br>
-            <input type="file" name="prescription"> <br> <br>
+        <label for="question">Question</label> <br>
+            <input type="text" name="question" required> <br> <br>
+        <label for="answer">Answer</label> <br>
+            <textarea name="answer" class="textarea" placeholder="Write here..."></textarea> <br> <br> 
         <br> <br>    
         <button type="button" class="btn-done">Done</button>
         <a href="index.html"><button type="button" class="btn-cancel">Cancel</button></a>

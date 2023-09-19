@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="addstyle.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../style.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script defer src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script defer src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script defer src="script.js"></script>
     <script defer src="../script.js"></script>
-    <title>Add Patient | Leonardo Physical Therapy Rehabilitation Clinic</title>
+    <title>Equipment | Leonardo Physical Therapy Rehabilitation Clinic</title>
     <!-- Fontawesome CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
 </head>
+
 <body>
     <nav class="sidebar">
-        <a href="index.html" class="navbar-brand"><img src="../../images/logo/logo.png" style="width: 160px; height: 120px;"/></a>
+        <a href="../index.html" class="navbar-brand"><img src="../../images/logo/logo.png" style="width: 160px; height: 120px;"/></a>
   
         <div class="menu-content">
           <ul class="menu-items">
@@ -32,7 +39,7 @@
                   <a href="../staff/index.html">Staff</a>
                 </li>
                 <li class="item">
-                  <a href="index.html">Patients</a>
+                  <a href="../patients/index.html">Patients</a>
                 </li>
               </ul>
             </li>
@@ -89,7 +96,7 @@
                   Inventory
                 </div>
                 <li class="item">
-                  <a href="../equipment/index.html">Equipment</a>
+                  <a href="index.html">Equipment</a>
                 </li>
                 <li class="item">
                   <a href="../supplies/index.html">Supplies</a>
@@ -151,28 +158,101 @@
         <i class="fa-solid fa-bars" id="sidebar-close"></i>
         <h1>Leonardo Physical Therapy Rehabilitation Clinic</h1>
     </nav>
-
+    
     <main class="main">
     <div class="container pt-5">
-        <h2>Add Patient</h2> 
-    <form action="#">
-        <label for="name">Name</label> <br>
-            <input type="text" name="name" required> <br> <br>
-        <label for="contact_number">Contact Number</label> <br>
-            <input type="text" name="contact_number" required> <br> <br>
-        <label for="f2f_visits">Visits (Face-to-Face)</label> <br>
-            <input type="date" name="f2f_visits"> <br> <br>
-        <label for="f2f_online">Visits (Online)</label> <br>
-            <input type="date" name="f2f_online"> <br> <br>
-        <label for="diagnosis">Diagnosis</label> <br>
-            <textarea name="diagnosis" class="textarea" placeholder="Write here..."></textarea> <br> <br> 
-        <label for="prescription">Prescription</label> <br>
-            <input type="file" name="prescription"> <br> <br>
-        <br> <br>    
-        <button type="button" class="btn-done">Done</button>
-        <a href="index.html"><button type="button" class="btn-cancel">Cancel</button></a>
-    </form>
-    </div>
+        <div class="add_button">
+        <a href="add.html"><button type="button" class="btn-add"><i class="fa-solid fa-plus"></i> Add</button></a>
+        </div>
+    <table id="equipment" class="cell-border" style="width:100%">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Category</th>
+                <th>Quantity</th>
+                <th>Expiration</th>
+                <th>Actions</th>
+                <th style="display: none;"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Massage Gun</td>
+                <td>Cat A</td>
+                <td>3</td>
+                <td>12/25/2025</td>
+                <td><a href="edit.html"><span style="color: black;">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                  </span></a></td>
+                <td><a href="#"><span style="color: red;">
+                    <i class="fa-solid fa-trash-can"></i>
+                  </span></a></td>
+            </tr>
+            <tr>
+              <td>Massage Gun</td>
+              <td>Cat A</td>
+              <td>3</td>
+              <td>12/25/2025</td>
+              <td><a href="edit.html"><span style="color: black;">
+                  <i class="fa-solid fa-pen-to-square"></i>
+                </span></a></td>
+              <td><a href="#"><span style="color: red;">
+                  <i class="fa-solid fa-trash-can"></i>
+                </span></a></td>
+          </tr>
+          <tr>
+            <td>Massage Gun</td>
+            <td>Cat A</td>
+            <td>3</td>
+            <td>12/25/2025</td>
+            <td><a href="edit.html"><span style="color: black;">
+                <i class="fa-solid fa-pen-to-square"></i>
+              </span></a></td>
+            <td><a href="#"><span style="color: red;">
+                <i class="fa-solid fa-trash-can"></i>
+              </span></a></td>
+            </tr>
+            <tr>
+              <td>Massage Gun</td>
+              <td>Cat A</td>
+              <td>3</td>
+              <td>12/25/2025</td>
+              <td><a href="edit.html"><span style="color: black;">
+                  <i class="fa-solid fa-pen-to-square"></i>
+                </span></a></td>
+              <td><a href="#"><span style="color: red;">
+                  <i class="fa-solid fa-trash-can"></i>
+                </span></a></td>
+          </tr>
+            <tr>
+              <td>Massage Gun</td>
+              <td>Cat A</td>
+              <td>3</td>
+              <td>12/25/2025</td>
+              <td><a href="edit.html"><span style="color: black;">
+                  <i class="fa-solid fa-pen-to-square"></i>
+                </span></a></td>
+              <td><a href="#"><span style="color: red;">
+                  <i class="fa-solid fa-trash-can"></i>
+                </span></a></td>
+          </tr>
+              <tr>
+                <td>Massage Gun</td>
+                <td>Cat A</td>
+                <td>3</td>
+                <td>12/25/2025</td>
+                <td><a href="edit.html"><span style="color: black;">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                  </span></a></td>
+                <td><a href="#"><span style="color: red;">
+                    <i class="fa-solid fa-trash-can"></i>
+                  </span></a></td>
+            </tr>
+        </tbody>
+        
+    </table>
+</div>
 </main>
 </body>
+
 </html>

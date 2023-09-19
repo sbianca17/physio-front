@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="addstyle.css">
     <link rel="stylesheet" href="../style.css"/>
     <script defer src="../script.js"></script>
-    <title>Add Patient | Leonardo Physical Therapy Rehabilitation Clinic</title>
+    <title>Edit Patient | Leonardo Physical Therapy Rehabilitation Clinic</title>
     <!-- Fontawesome CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
 </head>
@@ -32,7 +32,7 @@
                   <a href="../staff/index.html">Staff</a>
                 </li>
                 <li class="item">
-                  <a href="index.html">Patients</a>
+                  <a href="../patients/index.html">Patients</a>
                 </li>
               </ul>
             </li>
@@ -89,7 +89,7 @@
                   Inventory
                 </div>
                 <li class="item">
-                  <a href="../equipment/index.html">Equipment</a>
+                  <a href="index.html">Equipment</a>
                 </li>
                 <li class="item">
                   <a href="../supplies/index.html">Supplies</a>
@@ -153,21 +153,19 @@
     </nav>
 
     <main class="main">
-    <div class="container pt-5">
-        <h2>Add Patient</h2> 
+      <div class="container pt-5">
+        <h2>Edit Supply</h2> 
     <form action="#">
         <label for="name">Name</label> <br>
-            <input type="text" name="name" required> <br> <br>
-        <label for="contact_number">Contact Number</label> <br>
-            <input type="text" name="contact_number" required> <br> <br>
-        <label for="f2f_visits">Visits (Face-to-Face)</label> <br>
-            <input type="date" name="f2f_visits"> <br> <br>
-        <label for="f2f_online">Visits (Online)</label> <br>
-            <input type="date" name="f2f_online"> <br> <br>
-        <label for="diagnosis">Diagnosis</label> <br>
-            <textarea name="diagnosis" class="textarea" placeholder="Write here..."></textarea> <br> <br> 
-        <label for="prescription">Prescription</label> <br>
-            <input type="file" name="prescription"> <br> <br>
+            <input type="text" name="name" required value="Massage Gun"> <br> <br>
+        <label for="category">Category</label> <br>
+            <input type="text" name="category" required value="Cat A"> <br> <br>
+        <label for="quantity">Quantity</label> <br>
+            <input type="number" name="quantity" value="3"> <br> <br>
+        <label for="expiration">Expiration</label> <br>
+            <input type="date" name="expiration"> <br> <br>
+        <label for="description">Description</label> <br>
+            <textarea name="description" class="textarea" placeholder="Write here...">Testing Description</textarea> <br> <br> 
         <br> <br>    
         <button type="button" class="btn-done">Done</button>
         <a href="index.html"><button type="button" class="btn-cancel">Cancel</button></a>
